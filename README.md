@@ -22,7 +22,10 @@ Windows Registry Editor Version 5.00
 3. Change `{USERNAME}` to your actual username.
 
 Then double click the `.reg` file and test it out by shift + right clicking in a directory. A new entry in the context menu, `Open a terminal here` or whatever you set, will appear.
+
 If you don't want to hold shift while right clicking, remove the line `"Extended"=""`.
+
+If you don't want an icon, remove the line `"Icon=""`.
 
 ## What this does
 
